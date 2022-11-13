@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Lorem Ipsum</p>
+    <form id="survey-form">
+      <input id="name" type="text">your name</input>
+      <input id="email" type="email">email</input>
+    </form>
+  </body>
+</html>
