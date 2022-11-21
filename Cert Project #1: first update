@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Lorem Ipsum</p>
+    <form id="survey-form">
+      <fieldset>
+        <input id="name" type="text" placeholder="First Name">your name</input><label for="name" id="name-label">
+        <input id="email" type="email" placeholder="Personal Email">email</input><label for="email" id="email-label">
+        <input id="number" type="number" placeholder="Phone Number" min="0" max="9">number</input><label for="number" id="number-label">
+      </fieldset>
+      <fieldset>
+        <input type="dropdown">
+      </fieldset>
+      <fieldset>
+      <input type="text" id="textarea" placeholder="Additional comments"></fieldset>
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
