@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF8">
+    <title>Cross County Connection Site Preferences</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Cross County Connection Site Preferences</h1>
+  <p id="description">Please select your tailored user experience<p>
+<form id="survey-form">
+  <fieldset>
+        <label for="name">First Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="lanme">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+  </fieldset>
+  <fieldset>
+        <label for="number">Number Selection:</label><br>
+        <input type="number" id="number-label" min="1" max="100"><br>
+  </fieldset>
+  <fieldset>
+    <input type="radio" id="html" name="first_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="first_languge" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="first_language" value="JavaScript">
+    <label for="javascript">JavaScript</label><br>
+  </fieldset>
+  <fieldset>
+    <input type="checkbox" id="html" name="html" value="html">
+    <label for="html">I am learning html</label><br>
+    <input type="checkbox" id="css" name="css" value="css">
+    <label for="css">I am learning css</label><br>
+    <input type="chceckbox" id="javascript" name="javascript" value="javascript">
+    <label for="javascript">I am learning javascript</label><br>
+  </fieldset>
+  <fieldset>
+    <label for="experiences">Important Coding Experiences:</label>
+    <textarea id="experiences" name="experiences" rows="5" cols="50">
+        Please tell us about an important experience that shaped your coding journey!
+    </textarea>
+
+</form>
+</body>
+</html>
