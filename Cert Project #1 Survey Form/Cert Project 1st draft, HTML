@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Product Development Survey #E76</title>
+</head>
+<body>
+  <h1 id="title">Type 039 Developmet Survey #E76</h1>
+  <p id="description">Initial Pilot Seat Comfort</p>
+  <form id="survey-form">
+    <div class="Div1">
+      <input type="text" id="name" placeholder="Enter Full Name" required>
+      <label id="name-label">Team Member Name:</label>
+      <input type="email" id="email" placeholder="Enter Email" required>
+      <label id="email-label">Team Member Email:</label>
+      <input type="number" placeholder="10" id="number" min="10" max="99"  name ="age" value="age">
+      <label id="number-label">Team Member Age:</label>
+    </div>
+    <div class="Div2">
+      <label for="role">Which Option Describes Your Role?</label>
+      <select id="dropdown" name="role" required >
+      <option value="" disabled selected hidden>SELECT</option>
+        <option value="Lancia Engineer">Lancia Engineer</option>
+        <option value="SAAB Engineer">SAAB Engineer</option>
+        <option value="Federal Contractor">Federal Contractor</option>
+        <option value="Administrative Guest">Administrative Guest</option>
+        <option value="Guest">Guest</option>
+      </select>
+    </div>
+    <div class="Div3">
+      <Legend>Development Stage:</legend>
+      <label for="Winter1">Winter 1</label>
+      <input type="radio" value="Winter1" name="radio1">
+      <label for="Winter2">Winter 2</label>
+      <input type="radio" value="Winter2" name="radio1">
+      <label for="Spring1">Spring 1</label>
+      <input type="radio" value="Spring1" name="radio1"> 
+    </div>
+    <div class="Div2">
+    </div>
+    <div class="Div4">
+      <input type="checkbox" value="good">
+      <input type="checkbox" value="bad">
+    </div>
+    <div class="Div1">
+      <label for="experience-box">Please Describe Your Experience:</label>
+      <textarea id="experience-box" required>
+      </textarea>
+    </div>
+    <button id="submit" type="submit">Submit</button>
+   </form>
+ </body>
+</html>
